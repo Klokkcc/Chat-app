@@ -1,0 +1,122 @@
+#tlo{
+    height: 100vh;
+    margin: 0;
+   padding: 0;
+   border-radius: 0px;
+    background-color: rgb(8, 71, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+}
+#okienko{
+    
+    width:500px;
+    height:500px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    
+    
+}
+#mail{
+   border:none;
+    border-bottom: black 1px solid;
+    outline: none;
+}
+
+#haslo{
+    border:none;
+    border-bottom: black 1px solid;
+    outline: none;
+}
+
+#dolacz{
+    height: 40px;
+    width:180px;
+    border-radius: 20px;
+    border:none;
+    background-color:rgb(8, 71, 187);
+    color:white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#pytanie{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#errr{
+    margin: 0;
+    padding: 0;
+    color:red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:none;
+}
+#title{
+    color:white;
+    position:relative;
+    left:0px;
+    top:-20px;
+    font-family: logo;
+    font-size: 50px;
+    display:flex;
+
+}
+@font-face
+
+{
+
+font-family: logo;
+
+src:url(C:\Users\Klokk\Desktop\chat\app\src\strony\font\GreatVibes-Regular.otf);
+
+}
+#show{
+    position:fixed;
+    left: 1050px;
+    width: 20px;
+    height: 20px;
+    bottom: 490px;
+    border:1px black solid;
+    cursor: pointer;
+}
+#showpic{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    position: relative;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    #tlo {
+        overflow: hidden;
+        height: 100vh;
+        margin: 0;
+        border-radius: 0px;
+        background-color: rgb(8, 71, 187);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #okienko {
+        width: 350px;
+        height: 350px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+  }

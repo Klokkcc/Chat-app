@@ -1,0 +1,76 @@
+#conversation {
+  position: absolute;
+  height: 659px;
+  width: 968px;
+  left: 530px;
+  top: 61px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+
+  border-left: 1px solid rgb(0, 0, 0);
+}
+#conversation::-webkit-scrollbar {
+  width: 16px;
+  cursor: pointer;
+}
+
+#conversation::-webkit-scrollbar-track {
+  background-color: #ecfffe;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#conversation::-webkit-scrollbar-thumb {
+  background-color: #818181;
+  border-radius: 100px;
+  cursor: pointer;
+}
+#message{
+    left: 0px;
+    padding: 20px;
+    height:calc(100%-100px);
+    width:500px;
+    margin-top:10px;
+    
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+#container{
+  position: relative;
+  width:800px;
+  height:calc(100%-100px);
+}
+@media only screen and (max-width: 600px) {
+  #conversation {
+    position: absolute;
+    height: 512px;
+    width: 100%;
+    left: 0px;
+    /* top: 61px; */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow: auto;
+ border: none;
+    margin-top: 128px;
+}
+#message {
+  left: 0px;
+  padding: 20px;
+  width: 40%;
+  margin-top: 0px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: calc(100%-100px);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+}
